@@ -9,7 +9,6 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/doctors")
-@CrossOrigin(origins = "http://localhost:5173") // Connects to your React Vite dev server
 public class DoctorController {
 
     @Autowired
